@@ -47,12 +47,13 @@ public class Curso {
     }
     
     public void mostrarEstudiantesAprobados(){
-        System.out.println("Estudiantes aprobados");
+        System.out.println("\nEstudiantes aprobados:");
         boolean aprobados = false;
         
         for (int i = 0; i < numeroEstudiantes; i++){
             if (estudiantesAsignados[i].getNotaFinal() >= 61){
-                System.out.println("estudiantesAsignados[i]");
+                //mostrar alumnos aprobados
+                System.out.println(estudiantesAsignados[i]);
                 aprobados = true;   
             }
         }
