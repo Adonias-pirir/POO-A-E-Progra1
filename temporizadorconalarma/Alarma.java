@@ -21,7 +21,7 @@ public class Alarma {
     }
     
     public void activarAlarma(){
-        System.out.println("PELIGRO, Tiempo alcanzado: " + tiempoObjetivo + " segundos");
+        System.out.println("\n PELIGRO, Tiempo alcanzado: " + tiempoObjetivo + " segundos \n");
     }
     
 }
