@@ -17,11 +17,11 @@ public class TemporizadorConAlarma {
         
         Temporizador temporizador = new Temporizador ();
         
-        Alarma alarma = new Alarma(5);
+        Alarma alarma = new Alarma(20);
         
         temporizador.setAlarma(alarma);
         
-        temporizador.iniciar(10);
+        temporizador.iniciar(45);
     }
     
 }
