@@ -18,15 +18,13 @@ public class ControlNotasUnCurso {
         
         Curso curso1 = new Curso("23-04", "Programacion1", "Miguel");
         
-        Curso curso2 = new Curso("24-05", "Programacion1", "Catalan");
-        
         Estudiante estudiante1 = new Estudiante("Josue", "1423-25", 70);
         estudiante1.asignar(curso1);
         
-        Estudiante estudiante2 = new Estudiante("Adonias", "1423-25", 61);
+        Estudiante estudiante2 = new Estudiante("Adonias", "1993-25", 61);
         estudiante2.asignar(curso1);
         
-        Estudiante estudiante3 = new Estudiante("Adonias", "1423-25", 105);
+        Estudiante estudiante3 = new Estudiante("Carlos", "9884-25", 25);
         estudiante3.asignar(curso1);
         
         curso1.mostrarEstudiantesAsignados();
