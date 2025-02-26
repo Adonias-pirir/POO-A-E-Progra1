@@ -57,7 +57,7 @@ public class Estudiante {
         System.out.println("El estudiante se asigna");
     }
     public String toString(){
-          return"Nombre: "+ this.nombre +" Carne: " + this.carnet + " Nota Final: "+ this.notaFinal;
+          return("Nombre: "+ this.nombre +" Carne: " + this.carnet + " Nota Final: "+ this.notaFinal);
       }
     
     
